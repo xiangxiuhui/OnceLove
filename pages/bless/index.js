@@ -10,6 +10,10 @@ Page({
      */
     data: {
         userInfo: {},
+        actionSheetHidden: true,
+        painting: {},
+        shareImage: '',
+        qrcode: ''
     },
 
     /**
@@ -56,7 +60,24 @@ Page({
             }
         })
     },
-
+    openActionsheet: function() {
+        var self = this;
+        self.setData({
+            actionSheetHidden: !self.data.actionSheetHidden
+        });
+    },
+    listenerActionSheet: function () {
+        var self = this;
+        self.setData({
+            actionSheetHidden: !self.data.actionSheetHidden
+        })
+    },
+    createPoster: function() {
+ 
+        wx.navigateTo({
+            url: '/pages/poster/index',
+        })
+    },
     /**
      * 生命周期函数--监听页面初次渲染完成
      */

@@ -28,7 +28,7 @@ App({
     },
     globalData: {
         userInfo: null,
-        appid: 'wx4feb8e53536131a2',
+        appid: 'wx4feb8e53536131a2',//此处改成您自己的小程序appid
         server: 'https://wx.qiaker.cn/api',
         music_url: ''
     }

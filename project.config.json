@@ -10,7 +10,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "1.6.4",
 	"appid": "wx4feb8e53536131a2",
-	"projectname": "%E6%B5%8B%E8%AF%951",
+	"projectname": "%E6%B5%8B%E8%AF%952",
 	"condition": {
 		"search": {
 			"current": -1,
@@ -28,12 +28,24 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 0,
+			"current": 2,
 			"list": [
 				{
 					"id": -1,
 					"name": "地图",
-					"pathName": "pages/map/index"
+					"pathName": "pages/map/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "zhufu",
+					"pathName": "pages/bless/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "poster",
+					"pathName": "pages/poster/index"
 				}
 			]
 		}

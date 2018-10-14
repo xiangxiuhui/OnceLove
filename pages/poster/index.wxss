@@ -1,0 +1,14 @@
+.poster {
+    padding: 75rpx;
+}
+.share-image {
+  width: 600rpx;
+  height: 888rpx;
+  display: block;
+  margin: 0 auto;
+  border-radius: 3px;
+}
+
+button {
+  margin-top: 50rpx;
+}
