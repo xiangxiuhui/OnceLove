@@ -17,9 +17,13 @@
 
 ## 使用说明
 
-1.修改app.js中 globalData的appid为您自己申请的小程序appid；<br/>
-2.小程序后台中配置服务器域名：https://wx.qiaker.cn;<br/>
-3.开发者工具新建项目上传即可
+1.打包下载或者git clone项目到本地 打开微信开发者工具新建项目<br/>
+2.修改app.js中 globalData的appid为您自己申请的小程序appid；<br/>
+3.点击工具界面右上角上传即可
+
+## 注意事项
+
+需到小程序后台配置服务器域名中的request合法域名和downloadFile合法域名：https://wx.qiaker.cn（设置-开发管理-服务器域名）;
 
 
 ## 数据接口地址
