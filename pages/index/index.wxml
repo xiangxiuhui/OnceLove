@@ -19,16 +19,16 @@
     <view class='datetime' animation="{{animationData}}">
         <view class='box'>
             <view class="name css13610f7ae66601">
-                <span class="fl">{{mainInfo.he}}</span>
+                <span class="fl">项修卉</span>
                 <span class="and">&</span>
-                <span class="fr ">{{mainInfo.she}}</span>
+                <span class="fr ">郝小芳</span>
             </view>
             <view class="date css13610f7ae66601">
-                <view>谨定于 {{mainInfo.date}}</view>
-                <view>农历 {{mainInfo.lunar}} 举办婚礼</view>
-                <view>席设: {{mainInfo.hotel}}</view>
-                <view>地址：{{mainInfo.address}}</view>
-                <view>恭请您的光临</view>
+                <view>邀请您参加我们的婚礼</view>
+                <view>时间：2019年01月18日</view>
+                <view>农历：腊月十三（星期五）</view>
+                <view>宴设：杜桥镇名家乐-名乐厅18:00</view>
+                <view>地址：台州市杜桥镇嵩山路555号</view>
             </view>
             <image class="we" src='/images/we.png'></image>
         </view>

@@ -19,6 +19,5 @@
       呼叫新娘
     </view>
   </view>
-  <view class='copyright' wx:if="{{mainInfo.she_tel}}">Made With ❤ By  {{mainInfo.he}} & {{mainInfo.she}}</view>
-  <view class='copyright'>©2018 WX.QIAKER.CN</view>
+  <view class='copyright' wx:if="{{mainInfo.he_tel}}">Made With ❤ By  项修卉 & 郝小芳</view>
 </view>

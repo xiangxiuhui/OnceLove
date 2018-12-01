@@ -28,8 +28,8 @@ App({
     },
     globalData: {
         userInfo: null,
-        appid: 'wx4feb8e53536131a2',//此处改成您自己的小程序appid
-        server: 'https://wx.qiaker.cn/api',
+      appid: 'wxb838f0f66e2c5ecd',//此处改成您自己的小程序appid
+        server: 'https://zstbing.com/api.php',
         music_url: ''
     }
 });

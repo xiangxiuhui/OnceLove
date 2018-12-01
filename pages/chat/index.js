@@ -19,20 +19,13 @@ Page({
     onLoad: function(options) {
         var that = this
 
-        // wx.getUserInfo({
-        //   success: function (res) {
-        //     that.setData({
-        //       userInfo: res.userInfo
-        //     })
-        //   }
-        // })
-
-        let userInfo = wx.getStorageSync('userInfo')
-        if (userInfo) {
-            this.setData({
-                userInfo: userInfo
+        wx.getUserInfo({
+          success: function (res) {
+            that.setData({
+              userInfo: res.userInfo
             })
-        }
+          }
+        })
 
         wx.request({
             url: server,
@@ -176,13 +169,13 @@ Page({
                             chatNum: res.data.chatNum
                         });
                         wx.showModal({
-                            title: '提示',
+                            title: '谢谢',
                             content: res.data.msg,
                             showCancel: false
                         })
                     } else {
                         wx.showModal({
-                            title: '提示',
+                            title: '谢谢',
                             content: res.data.msg,
                             showCancel: false
                         })
@@ -192,8 +185,8 @@ Page({
         } else {
             //Catch Error
             wx.showModal({
-                title: '提示',
-                content: '您还没有填写内容',
+                title: '哈哈',
+                content: '随便说点~',
                 showCancel: false
             })
         }

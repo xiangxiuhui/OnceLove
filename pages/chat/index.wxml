@@ -21,9 +21,9 @@
     </view>
     <view class="send_msg">
         <form bindreset="foo">
-            <input placeholder="在这里输入您要说的话" class="send_ipt" bindinput="bindKeyInput"/>
-            <button type="primary" form-type="reset" class="send_btn" wx:if="{{userInfo.length > 0}}">发布</button>
-            <button type="primary" form-type="reset"  class="send_btn" wx:else open-type="getUserInfo"  bindgetuserinfo="bindgetuserinfo">发布</button>
+            <input placeholder="哈哈~有什么想对我们说的" class="send_ipt" bindinput="bindKeyInput"/>
+            <button type="primary" form-type="reset" class="send_btn" wx:if="{{userInfo.length > 0}}">祝福</button>
+            <button type="primary" form-type="reset"  class="send_btn" wx:else open-type="getUserInfo"  bindgetuserinfo="bindgetuserinfo">祝福</button>
         </form>   
     </view>
 </view>
